@@ -1,15 +1,12 @@
 .feedbackBtn {
     display: inline-flex;
-}
-
-.feedbackBtn {
     align-items: center;
     background-color: #fff;
     border: 2px solid #000;
+    border-radius: 12px;
     box-sizing: border-box;
     color: #000;
     cursor: pointer;
-    display: inline-flex;
     fill: #000;
     font-family: Inter, sans-serif;
     font-size: 16px;
@@ -45,10 +42,6 @@
     color: rgb(17, 165, 99);
     fill: rgb(17, 165, 99);
     background-color:#d7f3f7;
-}
-
-.feedbackBtn:nth-of-type(even) {
-    margin: auto 5rem;
 }
 
 @media (min-width: 768px) {
